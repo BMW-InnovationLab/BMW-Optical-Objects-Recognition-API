@@ -1,0 +1,12 @@
+aiofiles
+fastapi
+jsonschema
+numpy
+Pillow
+python-multipart
+uvicorn
+pytesseract
+pytz
+pandas 
+pylibdmtx
+pyzbar
