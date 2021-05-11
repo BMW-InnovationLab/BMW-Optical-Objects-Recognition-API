@@ -70,7 +70,7 @@ To run the API, go the to the API's directory and run the following:
 #### Using Linux based docker:
 
 ```sh
-sudo docker run -itv -p <docker_host_port>:4343 optical_objects_recognition_api
+sudo docker run -p <docker_host_port>:4343 optical_objects_recognition_api
 ```
 
 The <docker_host_port> can be any unique port of your choice.
