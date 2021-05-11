@@ -14,7 +14,7 @@ tz = pytz.timezone("Europe/Berlin")
 app = FastAPI(version='1.0', title='BMW InnovationLab Optical Objects Recognition Automation',
               description="<b>API for reading text, Data Matrices and QR Codes</b></br></br>"
               "<b>Contact the developers:</b></br>"
-              "<b>Anis Ismail:</b></br>"
+              "<b>Anis Ismail: <a href='mailto:anis.ismail@lau.edu'>anis.ismail@lau.edu</a></b></br>"
               "<b>BMW Innovation Lab: <a href='mailto:innovation-lab@bmw.de'>innovation-lab@bmw.de</a></b>")
 
 
