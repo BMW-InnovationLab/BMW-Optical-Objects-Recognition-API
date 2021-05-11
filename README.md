@@ -1,6 +1,6 @@
 # Optical Objects Recognition API
 
-###### This is a repository for an optical objects recognition API using the Tensorflow framework.
+###### This is a repository for an Optical Objects Recognition API.
 
 The inference REST API works on CPU. It's only supported on Linux Operating systems.
 
