@@ -91,19 +91,19 @@ http://<machine_IP>:<docker_host_port>/docs
 
 Takes an image and returns extracted text boxes
 
-![predict image](./docs/5.gif)
+![predict image](./docs/1.gif)
 
 #### /models/{model_name}/data_matrix (POST)
 
 Takes an image and decodes extracted data matrices
 
-![predict image](./docs/5.gif)
+![predict image](./docs/2.gif)
 
 #### /models/{model_name}/qr_code (POST)
 
 Takes an image and decodes extracted QR codes
 
-![predict image](./docs/5.gif)
+![predict image](./docs/3.gif)
 
 
 
