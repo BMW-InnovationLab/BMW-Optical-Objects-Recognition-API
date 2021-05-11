@@ -10,3 +10,4 @@ pytz
 pandas 
 pylibdmtx
 pyzbar
+cv2
