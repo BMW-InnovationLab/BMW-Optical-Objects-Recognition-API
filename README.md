@@ -22,8 +22,6 @@ Please use **docker swarm** only if you need to:
 
 If none of the aforementioned requirements are needed, simply use **docker**.
 
-![predict image](./docs/4.gif)
-
 ## Prerequisites
 
 - Ubuntu 18.04
