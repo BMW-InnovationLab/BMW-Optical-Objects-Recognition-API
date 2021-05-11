@@ -9,7 +9,8 @@ RUN apt-get update
 
 RUN apt-get install -y tesseract-ocr \ 
 		       libdmtx0b \
-                       libzbar0
+                       libzbar0 \
+		       python3-opencv
  
 RUN pip install -r requirements.txt
 
