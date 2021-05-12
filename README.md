@@ -109,7 +109,7 @@ Takes an image and decodes extracted QR codes
 
 ## Acknowledgment
 
-[Anis Ismail](https://www.linkedin.com/in/anisdismail), Lebanese American University, Beirut, Lebanon
+[Anis Ismail](https://www.linkedin.com/in/anisdismail), Beirut, Lebanon
 
 [robotron.de](https://robotron.de)
 
