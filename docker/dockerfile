@@ -1,0 +1,19 @@
+FROM python:3.6
+
+LABEL maintainer="anis.ismail@lau.edu"
+
+COPY docker/requirements.txt .
+COPY src/main /main
+
+RUN apt-get update
+
+RUN apt-get install -y tesseract-ocr \ 
+		       libdmtx0b \
+                       libzbar0 \
+		       python3-opencv
+ 
+RUN pip install -r requirements.txt
+
+WORKDIR /main
+    
+CMD ["uvicorn", "start:app", "--host", "0.0.0.0", "--port", "4343"]
